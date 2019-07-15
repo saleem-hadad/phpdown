@@ -7,10 +7,7 @@ use BinaryTorch\PhpDown\Element;
 
 class DummyElement extends Element 
 {
-    public function render()
-    {
-        return 'value';
-    }
+    protected $operand = "@";
 }
 
 class ElementTest  extends TestCase
@@ -18,8 +15,8 @@ class ElementTest  extends TestCase
     /** @test */
     public function it_renders()
     {
-        $dummyElement = new DummyElement;
+        $dummyElement = DummyElement::make('bla');
 
-        $this->assertEquals('value', $dummyElement->render());
+        $this->assertEquals('@ bla', $dummyElement->render());
     }
 }

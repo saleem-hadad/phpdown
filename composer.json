@@ -1,0 +1,41 @@
+{
+    "name": "binarytorch/phpdown",
+    "description": "Markdown",
+    "keywords": [
+        "binarytorch",
+        "phpdown"
+    ],
+    "homepage": "https://github.com/binarytorch/phpdown",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Saleem Hadad",
+            "email": "saleem@binarytorch.com.my",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BinaryTorch\\PhpDown\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BinaryTorch\\PhpDown\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

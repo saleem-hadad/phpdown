@@ -14,7 +14,7 @@ class Breaks extends Element
     /**
      * @return bool
      */
-    public function canRenderContent()
+    protected function canRenderContent()
     {
         return false;
     }

@@ -18,5 +18,6 @@ class ElementTest extends TestCase
         $dummyElement = DummyElement::make('bla');
 
         $this->assertEquals('@ bla', $dummyElement->render());
+        $this->assertEquals("@ bla\n", $dummyElement->withNewLine()->render());
     }
 }

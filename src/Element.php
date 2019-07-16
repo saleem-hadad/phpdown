@@ -24,6 +24,11 @@ abstract class Element
     protected $endOperand;
 
     /**
+     * @var bool
+     */
+    protected $newLine = false;
+
+    /**
      * The class constructor.
      * 
      * @param $content
@@ -70,9 +75,11 @@ abstract class Element
     /**
      * @return bool
      */
-    public function canRenderContent()
+    public function withNewLine()
     {
-        return true;
+        $this->newLine = true;
+
+        return $this;
     }
 
     /**
@@ -95,6 +102,18 @@ abstract class Element
             $result .= " {$this->endOperand()}";
         }
 
+        if($this->newLine) {
+            $result .= "\n";
+        }
+
         return $result;
+    }
+
+    /**
+     * @return bool
+     */
+    protected function canRenderContent()
+    {
+        return true;
     }
 }

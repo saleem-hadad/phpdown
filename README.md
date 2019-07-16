@@ -18,10 +18,10 @@ composer require binarytorch/phpdown
 
 - [x] Link
 - [x] Image
+- [x] Todo List
 - [ ] Table
 - [ ] Code
 - [ ] Strikethrough
-- [ ] Todo List
 - [ ] Footnotes
 - [ ] Document
 

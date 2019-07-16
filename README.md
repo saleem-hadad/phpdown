@@ -1,5 +1,11 @@
 # PHPDown
 
+## Why?
+
+I know, it's a little bit wired to represent Markdown elements as PHP classes but let me show you the reason behind it then you can leave if you still think this is a funky package :D
+
+
+
 ## Installation
 
 You can install the package via composer:
@@ -8,28 +14,19 @@ You can install the package via composer:
 composer require binarytorch/phpdown
 ```
 
-## Usage
+## Usage & Supported Elements
 
-``` php
-// Usage description here
-```
-
-## TODO
-
+- [x] Heading
+- [x] Breaks
+- [x] Blockquote
 - [x] Link
 - [x] Image
 - [x] Todo List
-- [ ] Table
+- [x] Mutations: [Strikethrough, Bold, Inline Code, Marked]
 - [ ] Code
-- [ ] Strikethrough
 - [ ] Footnotes
+- [ ] Table
 - [ ] Document
-
-### Testing
-
-``` bash
-composer test
-```
 
 ### Changelog
 

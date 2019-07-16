@@ -10,7 +10,7 @@ class DummyElement extends Element
     protected $operand = "@";
 }
 
-class ElementTest  extends TestCase
+class ElementTest extends TestCase
 {
     /** @test */
     public function it_renders()

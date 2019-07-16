@@ -72,7 +72,11 @@ abstract class Element
      */
     public function render()
     {
-        $result = "{$this->operand()} {$this->content()}";
+        $result = "{$this->operand()}";
+
+        if($this->content()) {
+            $result .= " {$this->content()}";
+        }
 
         if($this->endOperand()) {
             $result .= " {$this->endOperand()}";

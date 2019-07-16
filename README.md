@@ -17,7 +17,7 @@ composer require binarytorch/phpdown
 ## TODO
 
 - [x] Link
-- [ ] Image
+- [x] Image
 - [ ] Table
 - [ ] Code
 - [ ] Strikethrough

@@ -83,7 +83,12 @@ abstract class Element
         $result = "{$this->operand()}";
 
         if($this->content() && $this->canRenderContent()) {
-            $result .= " {$this->content()}";
+            // handle the indented elements.
+            if($this->content() instanceof Element) {
+                $result .= " {$this->content()->render()}";
+            }else {
+                $result .= " {$this->content()}";
+            }
         }
 
         if($this->endOperand()) {

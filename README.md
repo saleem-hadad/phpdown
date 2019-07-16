@@ -14,6 +14,17 @@ composer require binarytorch/phpdown
 // Usage description here
 ```
 
+## TODO
+
+- [x] Link
+- [ ] Image
+- [ ] Table
+- [ ] Code
+- [ ] Strikethrough
+- [ ] Todo List
+- [ ] Footnotes
+- [ ] Document
+
 ### Testing
 
 ``` bash

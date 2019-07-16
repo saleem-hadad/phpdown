@@ -68,13 +68,21 @@ abstract class Element
     }
 
     /**
+     * @return bool
+     */
+    public function canRenderContent()
+    {
+        return true;
+    }
+
+    /**
      * @return mixed
      */
     public function render()
     {
         $result = "{$this->operand()}";
 
-        if($this->content()) {
+        if($this->content() && $this->canRenderContent()) {
             $result .= " {$this->content()}";
         }
 

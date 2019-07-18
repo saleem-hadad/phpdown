@@ -23,8 +23,7 @@ composer require binarytorch/phpdown
 - [x] Image
 - [x] Todo List
 - [x] Mutations: [Strikethrough, Bold, Inline Code, Marked]
-- [ ] Code
-- [ ] Footnotes
+- [x] Code
 - [ ] Table
 - [ ] Document
 

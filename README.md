@@ -2,7 +2,7 @@
 
 ## Why?
 
-I know, it's a little bit wired to represent Markdown elements as PHP classes but let me show you the reason behind it then you can leave if you still think this is a funky package :D
+I know, it's a little bit wired to represent Markdown elements as PHP classes but let me show you the reason behind it then you can leave if you still think this is a funky idea :D
 
 
 
@@ -25,7 +25,9 @@ composer require binarytorch/phpdown
 - [x] Mutations: [Strikethrough, Bold, Inline Code, Marked]
 - [x] Code
 - [x] Table
-- [ ] Document
+- [x] Markdown Document
+
+See full [documentation](https://phpdown.binarytorch.com.my/)
 
 ### Changelog
 

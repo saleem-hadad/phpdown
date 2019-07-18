@@ -4,8 +4,6 @@
 
 I know, it's a little bit wired to represent Markdown elements as PHP classes but let me show you the reason behind it then you can leave if you still think this is a funky idea :D
 
-
-
 ## Installation
 
 You can install the package via composer:

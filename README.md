@@ -10,7 +10,7 @@
 <p align="center">
 <a href="https://github.com/saleem-hadad/phpdown"><img src="https://img.shields.io/packagist/dt/binarytorch/phpdown.svg" alt="License"></a>
 <a href="https://github.com/saleem-hadad/phpdown"><img src="https://img.shields.io/github/release/saleem-hadad/phpdown.svg" alt="Release"></a>
-<a href="https://github.com/saleem-hadad/phpdown"><img src="https://poser.pugx.org/laravel/framework/phpdown.svg" alt="License"></a>
+<a href="https://github.com/saleem-hadad/phpdown"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 <br/><br/>
 

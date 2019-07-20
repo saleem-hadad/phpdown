@@ -1,3 +1,21 @@
+<h6 align="center">
+    <img width="400px" src="https://phpdown.binarytorch.com.my/images/phpdown-logo.png"/>
+</h6>
+
+<h2 align="center">
+    Code-Driven PHP Markdown Representation
+</h2>
+    
+
+<p align="center">
+<a href="https://github.com/saleem-hadad/phpdown"><img src="https://img.shields.io/packagist/dt/binarytorch/phpdown.svg" alt="License"></a>
+<a href="https://github.com/saleem-hadad/phpdown"><img src="https://img.shields.io/github/release/saleem-hadad/phpdown.svg" alt="Release"></a>
+<a href="https://github.com/saleem-hadad/phpdown"><img src="https://poser.pugx.org/laravel/framework/phpdown.svg" alt="License"></a>
+</p>
+<br/><br/>
+
+![overview](https://phpdown.binarytorch.com.my/images/phpdown.png)
+
 # PHPDown
 
 ## Why? (optional)
@@ -6,7 +24,7 @@ I know, it's a little bit funky to represent Markdown elements as PHP classes bu
 
 Currently, I'm still actively maintaining my package [Larecipe](https://larecipe.binarytorch.com.my) which its main purpose is writing software documentation in a very elegant and beautiful looking. However, during my daily work as software team leader, I'm required to write a lot of docs for our projects and APIs where now I feel I have to automate this process and save some time on other important things. 
 
-Therefore, I've decided to develop a new open-source tool (will be available soon) for Larecipe where you can generate docs on the fly from your tests suites without warring on updating the docs every time you add a new field or remove one and this idea requires to have Markdown generated output and yeah! you can guess the rest of the story 😆 but I really think this is helpful for other cases & that's why I separated as a new package for PHP.
+Therefore, I've decided to develop a new open-source tool (will be available soon) for Larecipe where you can generate docs on the fly from your tests suites without warring on updating the docs every time you add new field or remove one and this idea requires to have Markdown generated output and yeah! you can guess the rest of the story 😆 but I really think this is helpful for other cases that's why I separated as a new package for PHP.
 
 ## Installation
 
@@ -29,7 +47,7 @@ composer require binarytorch/phpdown
 - [x] Table
 - [x] Markdown Document
 
-See full [documentation](https://phpdown.binarytorch.com.my/)
+See full [documentation](https://phpdown.binarytorch.com.my/docs)
 
 ## Contributing
 

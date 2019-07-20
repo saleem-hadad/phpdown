@@ -1,6 +1,6 @@
 {
     "name": "binarytorch/phpdown",
-    "description": "Markdown",
+    "description": "Code-Driven PHP Markdown Representation",
     "keywords": [
         "binarytorch",
         "phpdown"
